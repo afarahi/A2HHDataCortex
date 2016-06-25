@@ -15,5 +15,6 @@ if input == 0 :
    from learning import learningPipeline
    learningPipeline()
 if input == 1 :
-   pass
+   from recommendation import recommendationPipeline
+   recommendationPipeline()
 
