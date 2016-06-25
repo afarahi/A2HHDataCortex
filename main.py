@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 import sys
-sys.path.insert(0,'/home/aryaf/Pipelines/Kaggle/Flint/source')
+sys.path.insert(0,'/home/aryaf/Pipelines/A2Hack/A2HHDataCortex/source')
 
 
 flux_mode = False
@@ -12,7 +12,7 @@ if flux_mode :
 input = int( sys.argv[1] )
 
 if input == 0 :
-   from learningPipeline import learningPipeline
+   from learning import learningPipeline
    learningPipeline()
 if input == 1 :
    pass
